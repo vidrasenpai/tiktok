@@ -35,8 +35,8 @@ CHANNEL = os.environ.get("CHANNEL", "ometvhxh")
 GROUP = os.environ.get("GROUP", "hv015")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001281312406"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001787258151"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", -1001322278013"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001281312406"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 
@@ -63,7 +63,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1880970848)
+ADMINS.append(5060495307)
 ADMINS.append(1880970848)
 ADMINS.append(1880970848)
 ADMINS.append(1880970848)
