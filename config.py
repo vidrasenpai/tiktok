@@ -19,16 +19,16 @@ APP_ID = int(os.environ.get("APP_ID", "7375040"))
 API_HASH = os.environ.get("API_HASH", "4166e18db5a7880136d41ceb0aa20971")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001653338217"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001729316340"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5060495307"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Vidraplay")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://rzikgyxe:QHLNzG3neSXjSJfvv_jiMEFkGQTekfcd@satao.db.elephantsql.com/rzikgyxe")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "ometvhxh")
