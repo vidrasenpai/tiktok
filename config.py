@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "4166e18db5a7880136d41ceb0aa20971")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001852239412"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "vidraplay")
@@ -34,7 +34,7 @@ DB_URI = os.environ.get("DATABASE_URL", "postgres://llewabox:uWl2O-X_3HELCTaOU9O
 CHANNEL = os.environ.get("asupantiktokbokep")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001655628645"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -61,9 +61,9 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
-ADMINS.append(844432220)
-ADMINS.append(1750080384)
+ADMINS.append(1880970848)
+ADMINS.append(1819982256)
+ADMINS.append(2108493355)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
