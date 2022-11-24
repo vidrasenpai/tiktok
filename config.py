@@ -25,13 +25,13 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "mrismanaziz")
+OWNER = os.environ.get("OWNER", "vidraplay")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://llewabox:uWl2O-X_3HELCTaOU9O7sk086KP1ZInC@satao.db.elephantsql.com/llewabox")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
+CHANNEL = os.environ.get("asupantiktokbokep")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
