@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5818150503:AAH5p6rFxuHjEUOFwTzwXPCDonovF9MKJ8s")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5709794720:AAFZYXjbV52ryx_KmTQRzUdgQEvc5m7sKk4")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "7375040"))
@@ -19,22 +19,22 @@ APP_ID = int(os.environ.get("APP_ID", "7375040"))
 API_HASH = os.environ.get("API_HASH", "4166e18db5a7880136d41ceb0aa20971")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001852239412"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001870420030"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5574755137"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "vidraplay")
+OWNER = os.environ.get("OWNER", "onlybtpm")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://llewabox:uWl2O-X_3HELCTaOU9O7sk086KP1ZInC@satao.db.elephantsql.com/llewabox")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://xhmvgrqs:TLFacIu6tb24LfQrkg9ePfj2dB-9g4gZ@satao.db.elephantsql.com/xhmvgrqs")
 
 # Username CH & Group
 CHANNEL = os.environ.get("asupantiktokbokep")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001655628645"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001594601781"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
